@@ -385,18 +385,6 @@
                     </div>
                 </div>
             </div>
-            <script>
-                $('#rec267684326 .t811_submit').click(function() {
-                    var link = $(this).parent();
-                    var amount = $('#rec267684326 .t811_price').val();
-                    var href = '#order:=' + amount;
-                    $(link).attr('href', href);
-                });
-                $('#rec267684326 .t811_price').on('focus', function() {
-                    this.value = this.value.replace(/[^0-9.,]*/g, '');
-                });
-
-            </script>
             <style>
                 #rec267684326 .t-btn[data-btneffects-first],
                 #rec267684326 .t-btn[data-btneffects-second],
